@@ -1,0 +1,17 @@
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore DAL\bin\Debug\net6.0\ZStore DAL.deps.json
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore DAL\bin\Debug\net6.0\ZStore DAL.dll
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore DAL\bin\Debug\net6.0\ZStore DAL.pdb
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore DAL\obj\Debug\net6.0\ZStore DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore DAL\obj\Debug\net6.0\ZStore DAL.AssemblyInfoInputs.cache
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore DAL\obj\Debug\net6.0\ZStore DAL.AssemblyInfo.cs
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore DAL\obj\Debug\net6.0\ZStore DAL.csproj.CoreCompileInputs.cache
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore DAL\obj\Debug\net6.0\ZStore DAL.dll
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore DAL\obj\Debug\net6.0\refint\ZStore DAL.dll
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore DAL\obj\Debug\net6.0\ZStore DAL.pdb
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore DAL\obj\Debug\net6.0\ref\ZStore DAL.dll
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore DAL\bin\Debug\net6.0\ZStore DAL.runtimeconfig.json
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore DAL\obj\Debug\net6.0\ZStore DAL.csproj.AssemblyReference.cache
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore DAL\obj\Debug\net6.0\ZStore DAL.genruntimeconfig.cache
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore DAL\bin\Debug\net6.0\ZStore BLL.dll
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore DAL\bin\Debug\net6.0\ZStore BLL.pdb
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore DAL\obj\Debug\net6.0\ZStore DAL.csproj.CopyComplete
