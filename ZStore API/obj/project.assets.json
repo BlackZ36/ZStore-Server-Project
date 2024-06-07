@@ -228,7 +228,7 @@
           }
         }
       },
-      "Microsoft.Extensions.Configuration/6.0.0": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
@@ -1028,6 +1028,39 @@
             "rid": "win"
           }
         }
+      },
+      "ZStore BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.31",
+          "Microsoft.Extensions.Configuration.Json": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection": "6.0.1",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/ZStore BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZStore BLL.dll": {}
+        }
+      },
+      "ZStore DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.31",
+          "Microsoft.Extensions.Configuration.Json": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection": "6.0.1",
+          "Newtonsoft.Json": "13.0.3",
+          "ZStore BLL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ZStore DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZStore DAL.dll": {}
+        }
       }
     }
   },
@@ -1558,10 +1591,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Configuration/6.0.0": {
-      "sha512": "tq2wXyh3fL17EMF2bXgRhU7JrbO3on93MRKYxzz4JzzvuGSA1l0W3GI9/tl8EO89TH+KWEymP7bcFway6z9fXg==",
+    "Microsoft.Extensions.Configuration/6.0.1": {
+      "sha512": "BUyFU9t+HzlSE7ri4B+AQN2BgTgHv/uM82s5ZkgU1BApyzWzIl48nDsG5wR1t0pniNuuyTBzG3qCW8152/NtSw==",
       "type": "package",
-      "path": "microsoft.extensions.configuration/6.0.0",
+      "path": "microsoft.extensions.configuration/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1572,7 +1605,7 @@
         "lib/net461/Microsoft.Extensions.Configuration.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
-        "microsoft.extensions.configuration.6.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.6.0.1.nupkg.sha512",
         "microsoft.extensions.configuration.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -2801,32 +2834,45 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "ZStore BLL/1.0.0": {
+      "type": "project",
+      "path": "../ZStore BLL/ZStore BLL.csproj",
+      "msbuildProject": "../ZStore BLL/ZStore BLL.csproj"
+    },
+    "ZStore DAL/1.0.0": {
+      "type": "project",
+      "path": "../ZStore DAL/ZStore DAL.csproj",
+      "msbuildProject": "../ZStore DAL/ZStore DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore.Design >= 6.0.31",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.31",
+      "Microsoft.Extensions.Configuration >= 6.0.1",
       "Microsoft.Extensions.Configuration.Json >= 6.0.0",
       "Microsoft.Extensions.DependencyInjection >= 6.0.1",
       "Newtonsoft.Json >= 13.0.3",
-      "Swashbuckle.AspNetCore >= 6.5.0"
+      "Swashbuckle.AspNetCore >= 6.5.0",
+      "ZStore BLL >= 1.0.0",
+      "ZStore DAL >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\duchi\\.nuget\\packages\\": {}
+    "C:\\Users\\a\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore API\\ZStore API.csproj",
+      "projectUniqueName": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore API\\ZStore API.csproj",
       "projectName": "ZStore API",
-      "projectPath": "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore API\\ZStore API.csproj",
-      "packagesPath": "C:\\Users\\duchi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore API\\obj\\",
+      "projectPath": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore API\\ZStore API.csproj",
+      "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\duchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2839,13 +2885,25 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\ZStore BLL.csproj": {
+              "projectPath": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\ZStore BLL.csproj"
+            },
+            "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore DAL\\ZStore DAL.csproj": {
+              "projectPath": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore DAL\\ZStore DAL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2861,6 +2919,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[6.0.31, )"
+          },
+          "Microsoft.Extensions.Configuration": {
+            "target": "Package",
+            "version": "[6.0.1, )"
           },
           "Microsoft.Extensions.Configuration.Json": {
             "target": "Package",
@@ -2890,24 +2952,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.25, 6.0.25]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.25, 6.0.25]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.25, 6.0.25]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.25, 6.0.25]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -2916,7 +2960,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
       }
     }
   }

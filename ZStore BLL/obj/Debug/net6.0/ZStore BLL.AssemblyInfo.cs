@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZStore BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdbef47a9be710ad597a803845ff016da6de8233")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZStore BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZStore BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

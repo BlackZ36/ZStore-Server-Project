@@ -62,3 +62,71 @@ C:\Users\duchi\Desktop\ZStore Server Project\ZStore Console\bin\Debug\net6.0\Swa
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore Console\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore Console\bin\Debug\net6.0\ZStore API.dll
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore Console\bin\Debug\net6.0\ZStore API.pdb
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\ZStore API.deps.json
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\ZStore API.runtimeconfig.json
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\appsettings.json
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\ZStore API.exe
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\ZStore Console.exe
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\ZStore Console.deps.json
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\ZStore Console.runtimeconfig.json
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\ZStore Console.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\ZStore Console.pdb
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\ZStore API.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\ZStore BLL.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\ZStore DAL.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\ZStore API.pdb
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\ZStore BLL.pdb
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\bin\Debug\net6.0\ZStore DAL.pdb
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\obj\Debug\net6.0\ZStore Console.csproj.AssemblyReference.cache
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\obj\Debug\net6.0\ZStore Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\obj\Debug\net6.0\ZStore Console.AssemblyInfoInputs.cache
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\obj\Debug\net6.0\ZStore Console.AssemblyInfo.cs
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\obj\Debug\net6.0\ZStore Console.csproj.CoreCompileInputs.cache
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\obj\Debug\net6.0\ZStore Console.sourcelink.json
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\obj\Debug\net6.0\ZStore C.E04098FF.Up2Date
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\obj\Debug\net6.0\ZStore Console.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\obj\Debug\net6.0\refint\ZStore Console.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\obj\Debug\net6.0\ZStore Console.pdb
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\obj\Debug\net6.0\ZStore Console.genruntimeconfig.cache
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore Console\obj\Debug\net6.0\ref\ZStore Console.dll

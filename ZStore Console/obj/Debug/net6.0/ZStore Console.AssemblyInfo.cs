@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZStore Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdbef47a9be710ad597a803845ff016da6de8233")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZStore Console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZStore Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

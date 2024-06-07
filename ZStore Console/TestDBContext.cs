@@ -20,14 +20,14 @@ namespace ZStore_Console
             {
                 using (var context = new ZStore_SampleContext())
                 {
-                    var canConnect = context.Database.CanConnect();
-                    if (canConnect)
+                    List<Account> accounts = new List<Account>();
+                    accounts = context.Accounts.ToList();
+                    int count = 0;
+                    foreach (Account account in accounts)
                     {
-                        Console.WriteLine("Connection to the database was successful!");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Failed to connect to the database.");
+                        Console.WriteLine($"number {count}:  {account.Email}");
+                        count++;
+
                     }
                 }
             }
