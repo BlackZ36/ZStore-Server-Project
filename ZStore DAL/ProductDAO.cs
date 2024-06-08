@@ -1,21 +1,20 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
-using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
 using ZStore_BLL.Models;
 
 namespace ZStore_DAL
 {
-    public class AccountDAO
+    internal class ProductDAO
     {
-        private static AccountDAO instance = null;
-        private static readonly object instanceLock = new object();
-        private AccountDAO() { }
-        public static AccountDAO Instance
+        private static ProductDAO instance = null;
+        private static readonly object instanceLock = new Object();
+
+        private ProductDAO() { }
+        public static ProductDAO Instance
         {
             get
             {
@@ -23,54 +22,55 @@ namespace ZStore_DAL
                 {
                     if (instance == null)
                     {
-                        instance = new AccountDAO();
+                        instance = new ProductDAO();
                     }
                     return instance;
                 }
             }
         }
 
+
         //Method Below
-        public async Task<IEnumerable<Account>> GetAccountsAsync()
+        public async Task<IEnumerable<Product>> GetProductsAsync()
         {
-            var accounts = new List<Account>();
+            var products = new List<Product>();
             try
             {
                 using var context = new ZStore_SampleContext();
-                accounts = await context.Accounts.ToListAsync();
+                products = await context.Products.ToListAsync();
             }
             catch (Exception ex)
             {
                 throw new Exception($"An error occureed: {ex.Message}");
             }
-            return accounts;
+            return products;
         }
 
-        public async Task<Account> GetAccountByIDAsync(int ID)
+        public async Task<Product> GetProductByIdAsync(int ID)
         {
-            var account = new Account();
+            var product = new Product();
             try
             {
                 using var context = new ZStore_SampleContext();
-                account = await context.Accounts.FirstOrDefaultAsync(x => x.AccountId == ID);
+                product = await context.Products.FirstOrDefaultAsync(x => x.ProductId == ID);
             }
             catch (Exception ex)
             {
                 throw new Exception($"An error occureed: {ex.Message}");
             }
-            return account;
+            return product;
         }
 
-        public async Task<bool> AddAccountAsync(Account account)
+        public async Task<bool> AddProductAsync(Product product)
         {
             try
             {
-                if (account == null)
+                if (product == null)
                 {
-                    throw new ArgumentNullException(nameof(account), "Account Object Cannot Be Null");
+                    throw new ArgumentNullException(nameof(product), "Product Object Cannot Be Null");
                 }
                 using var context = new ZStore_SampleContext();
-                context.Accounts.Add(account);
+                context.Products.Add(product);
                 await context.SaveChangesAsync();
                 return true;
             }
@@ -80,32 +80,12 @@ namespace ZStore_DAL
             }
         }
 
-        public async Task<bool> UpdateAccountAsync(Account account)
+        public async Task<bool> UpdateProductAsync(Product product)
         {
             try
             {
                 using var context = new ZStore_SampleContext();
-                context.Accounts.Update(account);
-                context.SaveChangesAsync();
-                return true;
-            }
-            catch (Exception ex)
-            {
-                throw new Exception($"An error occurred: {ex.Message}");
-            }
-        }
-
-        public async Task<bool> DeleteAccountAsync(int ID)
-        {
-            try
-            {
-                using var context = new ZStore_SampleContext();
-                Account account = await context.Accounts.FirstOrDefaultAsync(x => x.AccountId == ID);
-                if (account == null)
-                {
-                    throw new ArgumentNullException(nameof(account), "Account Object Cannot Be Null");
-                }
-                context.Accounts.Remove(account);
+                context.Products.Update(product);
                 await context.SaveChangesAsync();
                 return true;
             }
@@ -115,5 +95,25 @@ namespace ZStore_DAL
             }
         }
 
+        public async Task<bool> DeleteProductAsync(int ID)
+        {
+            try
+            {
+                using var context = new ZStore_SampleContext();
+                Product product = await context.Products.FirstOrDefaultAsync(x => x.ProductId == ID);
+                if (product == null)
+                {
+                    throw new ArgumentNullException(nameof(product), "Product Object Cannot Be Null");
+                }
+                context.Products.Remove(product);
+                await context.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"An error occurred: {ex.Message}");
+
+            }
+        }
     }
 }

@@ -15,21 +15,3 @@ C:\Users\duchi\Desktop\ZStore Server Project\ZStore DAL\obj\Debug\net6.0\ZStore 
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore DAL\bin\Debug\net6.0\ZStore BLL.dll
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore DAL\bin\Debug\net6.0\ZStore BLL.pdb
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore DAL\obj\Debug\net6.0\ZStore DAL.csproj.CopyComplete
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore DAL\bin\Debug\net6.0\ZStore DAL.deps.json
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore DAL\bin\Debug\net6.0\ZStore DAL.runtimeconfig.json
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore DAL\bin\Debug\net6.0\ZStore DAL.dll
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore DAL\bin\Debug\net6.0\ZStore DAL.pdb
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore DAL\bin\Debug\net6.0\ZStore BLL.dll
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore DAL\bin\Debug\net6.0\ZStore BLL.pdb
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore DAL\obj\Debug\net6.0\ZStore DAL.csproj.AssemblyReference.cache
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore DAL\obj\Debug\net6.0\ZStore DAL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore DAL\obj\Debug\net6.0\ZStore DAL.AssemblyInfoInputs.cache
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore DAL\obj\Debug\net6.0\ZStore DAL.AssemblyInfo.cs
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore DAL\obj\Debug\net6.0\ZStore DAL.csproj.CoreCompileInputs.cache
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore DAL\obj\Debug\net6.0\ZStore DAL.sourcelink.json
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore DAL\obj\Debug\net6.0\ZStore DAL.csproj.Up2Date
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore DAL\obj\Debug\net6.0\ZStore DAL.dll
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore DAL\obj\Debug\net6.0\refint\ZStore DAL.dll
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore DAL\obj\Debug\net6.0\ZStore DAL.pdb
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore DAL\obj\Debug\net6.0\ZStore DAL.genruntimeconfig.cache
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore DAL\obj\Debug\net6.0\ref\ZStore DAL.dll

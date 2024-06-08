@@ -12,18 +12,3 @@ C:\Users\duchi\Desktop\ZStore Server Project\ZStore BLL\obj\Debug\net6.0\ref\ZSt
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore BLL\bin\Debug\net6.0\ZStore BLL.runtimeconfig.json
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore BLL\obj\Debug\net6.0\ZStore BLL.csproj.AssemblyReference.cache
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore BLL\obj\Debug\net6.0\ZStore BLL.genruntimeconfig.cache
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore BLL\bin\Debug\net6.0\ZStore BLL.deps.json
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore BLL\bin\Debug\net6.0\ZStore BLL.runtimeconfig.json
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore BLL\bin\Debug\net6.0\ZStore BLL.dll
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore BLL\bin\Debug\net6.0\ZStore BLL.pdb
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore BLL\obj\Debug\net6.0\ZStore BLL.csproj.AssemblyReference.cache
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore BLL\obj\Debug\net6.0\ZStore BLL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore BLL\obj\Debug\net6.0\ZStore BLL.AssemblyInfoInputs.cache
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore BLL\obj\Debug\net6.0\ZStore BLL.AssemblyInfo.cs
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore BLL\obj\Debug\net6.0\ZStore BLL.csproj.CoreCompileInputs.cache
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore BLL\obj\Debug\net6.0\ZStore BLL.sourcelink.json
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore BLL\obj\Debug\net6.0\ZStore BLL.dll
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore BLL\obj\Debug\net6.0\refint\ZStore BLL.dll
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore BLL\obj\Debug\net6.0\ZStore BLL.pdb
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore BLL\obj\Debug\net6.0\ZStore BLL.genruntimeconfig.cache
-C:\Users\a\Desktop\ZStore-Server-Project\ZStore BLL\obj\Debug\net6.0\ref\ZStore BLL.dll

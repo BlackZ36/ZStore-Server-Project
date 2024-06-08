@@ -9,7 +9,7 @@ using ZStore_DAL.Interface;
 
 namespace ZStore_DAL.Repository
 {
-    public class AccountRepository : IAccountRepository
+    internal class AccountRepository : IAccountRepository
     {
 
 
