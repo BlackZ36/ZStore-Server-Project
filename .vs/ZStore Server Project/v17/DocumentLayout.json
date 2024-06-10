@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF4CC48E-CE28-44CE-BA17-774993B6CCD8}|ZStore DAL\\ZStore DAL.csproj|c:\\users\\a\\desktop\\zstore-server-project\\zstore dal\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF4CC48E-CE28-44CE-BA17-774993B6CCD8}|ZStore DAL\\ZStore DAL.csproj|solutionrelative:zstore dal\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF4CC48E-CE28-44CE-BA17-774993B6CCD8}|ZStore DAL\\ZStore DAL.csproj|c:\\users\\a\\desktop\\zstore-server-project\\zstore dal\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF4CC48E-CE28-44CE-BA17-774993B6CCD8}|ZStore DAL\\ZStore DAL.csproj|solutionrelative:zstore dal\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D28FE18-62B9-49B8-8D48-114CCF5AF36E}|ZStore BLL\\ZStore BLL.csproj|c:\\users\\a\\desktop\\zstore-server-project\\zstore bll\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D28FE18-62B9-49B8-8D48-114CCF5AF36E}|ZStore BLL\\ZStore BLL.csproj|solutionrelative:zstore bll\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E1257D3D-CCDA-48D0-AF36-E8FC8BADD605}|ZStore Console\\ZStore Console.csproj|c:\\users\\a\\desktop\\zstore-server-project\\zstore console\\testdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1257D3D-CCDA-48D0-AF36-E8FC8BADD605}|ZStore Console\\ZStore Console.csproj|solutionrelative:zstore console\\testdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75666B39-0722-4F79-B090-F88638AE415D}|ZStore API\\ZStore API.csproj|c:\\users\\a\\desktop\\zstore-server-project\\zstore api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{75666B39-0722-4F79-B090-F88638AE415D}|ZStore API\\ZStore API.csproj|solutionrelative:zstore api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6D28FE18-62B9-49B8-8D48-114CCF5AF36E}|ZStore BLL\\ZStore BLL.csproj|c:\\users\\a\\desktop\\zstore-server-project\\zstore bll\\models\\itemvariant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D28FE18-62B9-49B8-8D48-114CCF5AF36E}|ZStore BLL\\ZStore BLL.csproj|solutionrelative:zstore bll\\models\\itemvariant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D28FE18-62B9-49B8-8D48-114CCF5AF36E}|ZStore BLL\\ZStore BLL.csproj|c:\\users\\a\\desktop\\zstore-server-project\\zstore bll\\models\\variant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D28FE18-62B9-49B8-8D48-114CCF5AF36E}|ZStore BLL\\ZStore BLL.csproj|solutionrelative:zstore bll\\models\\variant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D28FE18-62B9-49B8-8D48-114CCF5AF36E}|ZStore BLL\\ZStore BLL.csproj|c:\\users\\a\\desktop\\zstore-server-project\\zstore bll\\models\\variantvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D28FE18-62B9-49B8-8D48-114CCF5AF36E}|ZStore BLL\\ZStore BLL.csproj|solutionrelative:zstore bll\\models\\variantvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D28FE18-62B9-49B8-8D48-114CCF5AF36E}|ZStore BLL\\ZStore BLL.csproj|c:\\users\\a\\desktop\\zstore-server-project\\zstore bll\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D28FE18-62B9-49B8-8D48-114CCF5AF36E}|ZStore BLL\\ZStore BLL.csproj|solutionrelative:zstore bll\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductDAO.cs",
-              "DocumentMoniker": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore DAL\\ProductDAO.cs",
-              "RelativeDocumentMoniker": "ZStore DAL\\ProductDAO.cs",
-              "ToolTip": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore DAL\\ProductDAO.cs",
-              "RelativeToolTip": "ZStore DAL\\ProductDAO.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAYwC0AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T07:16:15.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore DAL\\Repository\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "ZStore DAL\\Repository\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore DAL\\Repository\\ProductRepository.cs",
-              "RelativeToolTip": "ZStore DAL\\Repository\\ProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABAAAAA",
+              "Title": "ItemVariant.cs",
+              "DocumentMoniker": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\Models\\ItemVariant.cs",
+              "RelativeDocumentMoniker": "ZStore BLL\\Models\\ItemVariant.cs",
+              "ToolTip": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\Models\\ItemVariant.cs",
+              "RelativeToolTip": "ZStore BLL\\Models\\ItemVariant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T06:49:26.167Z",
+              "WhenOpened": "2024-06-10T09:28:28.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "ZStore BLL\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\Models\\Product.cs",
-              "RelativeToolTip": "ZStore BLL\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAdAAAA",
+              "Title": "Variant.cs",
+              "DocumentMoniker": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\Models\\Variant.cs",
+              "RelativeDocumentMoniker": "ZStore BLL\\Models\\Variant.cs",
+              "ToolTip": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\Models\\Variant.cs",
+              "RelativeToolTip": "ZStore BLL\\Models\\Variant.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T07:11:03.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore API\\appsettings.json",
-              "RelativeDocumentMoniker": "ZStore API\\appsettings.json",
-              "ToolTip": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore API\\appsettings.json",
-              "RelativeToolTip": "ZStore API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-08T07:06:51.258Z",
+              "WhenOpened": "2024-06-10T09:22:36.544Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "VariantValue.cs",
+              "DocumentMoniker": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\Models\\VariantValue.cs",
+              "RelativeDocumentMoniker": "ZStore BLL\\Models\\VariantValue.cs",
+              "ToolTip": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\Models\\VariantValue.cs",
+              "RelativeToolTip": "ZStore BLL\\Models\\VariantValue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T09:22:17.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "ZStore BLL\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\Models\\Item.cs",
+              "RelativeToolTip": "ZStore BLL\\Models\\Item.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA9wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T05:11:27.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "TestDBContext.cs",
               "DocumentMoniker": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore Console\\TestDBContext.cs",
               "RelativeDocumentMoniker": "ZStore Console\\TestDBContext.cs",
               "ToolTip": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore Console\\TestDBContext.cs",
               "RelativeToolTip": "ZStore Console\\TestDBContext.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABcAAABHAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAIwCUAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T06:37:34.827Z",
               "EditorCaption": ""
