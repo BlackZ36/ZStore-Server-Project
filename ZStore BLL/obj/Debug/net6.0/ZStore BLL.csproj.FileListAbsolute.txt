@@ -12,3 +12,4 @@ C:\Users\duchi\Desktop\ZStore Server Project\ZStore BLL\obj\Debug\net6.0\ref\ZSt
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore BLL\bin\Debug\net6.0\ZStore BLL.runtimeconfig.json
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore BLL\obj\Debug\net6.0\ZStore BLL.csproj.AssemblyReference.cache
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore BLL\obj\Debug\net6.0\ZStore BLL.genruntimeconfig.cache
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore BLL\obj\Debug\net6.0\ZStore BLL.sourcelink.json

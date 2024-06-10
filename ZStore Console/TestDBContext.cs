@@ -21,7 +21,7 @@ namespace ZStore_Console
             {
                 using (var context = new ZStore_SampleContext())
                 {
-                    var products = context.Products.Include().ToList();
+                    var products = context.Products.ToList();
                     if (products.Any())
                     {
                         Console.WriteLine("Product information retrieved successfully:");

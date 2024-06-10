@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore Console\\ZStore Console.csproj": {}
+    "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore Console\\ZStore Console.csproj": {}
   },
   "projects": {
-    "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore API\\ZStore API.csproj": {
+    "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore API\\ZStore API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore API\\ZStore API.csproj",
+        "projectUniqueName": "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore API\\ZStore API.csproj",
         "projectName": "ZStore API",
-        "projectPath": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore API\\ZStore API.csproj",
-        "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore API\\obj\\",
+        "projectPath": "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore API\\ZStore API.csproj",
+        "packagesPath": "C:\\Users\\duchi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\duchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\ZStore BLL.csproj": {
-                "projectPath": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\ZStore BLL.csproj"
+              "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore BLL\\ZStore BLL.csproj": {
+                "projectPath": "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore BLL\\ZStore BLL.csproj"
               },
-              "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore DAL\\ZStore DAL.csproj": {
-                "projectPath": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore DAL\\ZStore DAL.csproj"
+              "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore DAL\\ZStore DAL.csproj": {
+                "projectPath": "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore DAL\\ZStore DAL.csproj"
               }
             }
           }
@@ -41,11 +41,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -62,6 +57,16 @@
               "target": "Package",
               "version": "[6.0.31, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.29, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.31, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[6.0.1, )"
@@ -73,6 +78,10 @@
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -94,6 +103,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -102,21 +129,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\ZStore BLL.csproj": {
+    "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore BLL\\ZStore BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\ZStore BLL.csproj",
+        "projectUniqueName": "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore BLL\\ZStore BLL.csproj",
         "projectName": "ZStore BLL",
-        "projectPath": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\ZStore BLL.csproj",
-        "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\obj\\",
+        "projectPath": "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore BLL\\ZStore BLL.csproj",
+        "packagesPath": "C:\\Users\\duchi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\duchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -136,11 +163,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -154,6 +176,12 @@
               "version": "[6.0.31, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.31, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.31, )"
             },
@@ -181,26 +209,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore Console\\ZStore Console.csproj": {
+    "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore Console\\ZStore Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore Console\\ZStore Console.csproj",
+        "projectUniqueName": "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore Console\\ZStore Console.csproj",
         "projectName": "ZStore Console",
-        "projectPath": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore Console\\ZStore Console.csproj",
-        "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore Console\\obj\\",
+        "projectPath": "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore Console\\ZStore Console.csproj",
+        "packagesPath": "C:\\Users\\duchi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore Console\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\duchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -214,11 +256,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore API\\ZStore API.csproj": {
-                "projectPath": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore API\\ZStore API.csproj"
+              "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore API\\ZStore API.csproj": {
+                "projectPath": "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore API\\ZStore API.csproj"
               },
-              "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\ZStore BLL.csproj": {
-                "projectPath": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\ZStore BLL.csproj"
+              "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore BLL\\ZStore BLL.csproj": {
+                "projectPath": "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore BLL\\ZStore BLL.csproj"
               }
             }
           }
@@ -227,16 +269,19 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.31, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -248,26 +293,44 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore DAL\\ZStore DAL.csproj": {
+    "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore DAL\\ZStore DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore DAL\\ZStore DAL.csproj",
+        "projectUniqueName": "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore DAL\\ZStore DAL.csproj",
         "projectName": "ZStore DAL",
-        "projectPath": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore DAL\\ZStore DAL.csproj",
-        "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore DAL\\obj\\",
+        "projectPath": "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore DAL\\ZStore DAL.csproj",
+        "packagesPath": "C:\\Users\\duchi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\duchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -281,8 +344,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\ZStore BLL.csproj": {
-                "projectPath": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\ZStore BLL.csproj"
+              "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore BLL\\ZStore BLL.csproj": {
+                "projectPath": "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore BLL\\ZStore BLL.csproj"
               }
             }
           }
@@ -291,11 +354,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -309,6 +367,12 @@
               "version": "[6.0.31, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.31, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.31, )"
             },
@@ -336,12 +400,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
