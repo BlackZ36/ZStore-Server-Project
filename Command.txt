@@ -12,3 +12,6 @@ dotnet ef dbcontext scaffold "server =(local); database = ZStore_Sample;uid=sa;p
 --String connection
 var ConnectionString = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetConnectionString("DefaultConnection");
 optionsBuilder.UseSqlServer(ConnectionString);
+
+builder.Services.AddDbContext<ZStore_SampleContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));

@@ -1,13 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ZStore_BLL.Models
 {
-    [Table("Account")]
     public partial class Account
-    {   
+    {
         public Account()
         {
             AccountRoles = new HashSet<AccountRole>();
@@ -16,7 +13,6 @@ namespace ZStore_BLL.Models
             RefreshTokens = new HashSet<RefreshToken>();
         }
 
-        [Key]
         public int AccountId { get; set; }
         public string? FirstName { get; set; }
         public string? LastName { get; set; }

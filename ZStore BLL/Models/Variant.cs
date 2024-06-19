@@ -7,7 +7,7 @@ namespace ZStore_BLL.Models
     {
         public Variant()
         {
-            ItemVariants = new HashSet<ItemVariant>();
+            ProductVariants = new HashSet<ProductVariant>();
             VariantValues = new HashSet<VariantValue>();
         }
 
@@ -18,7 +18,7 @@ namespace ZStore_BLL.Models
         public DateTime? CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
 
-        public virtual ICollection<ItemVariant> ItemVariants { get; set; }
+        public virtual ICollection<ProductVariant> ProductVariants { get; set; }
         public virtual ICollection<VariantValue> VariantValues { get; set; }
     }
 }

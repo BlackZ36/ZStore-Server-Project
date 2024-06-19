@@ -8,7 +8,8 @@ namespace ZStore_BLL.Models
         public Category()
         {
             InverseParentCategory = new HashSet<Category>();
-            Products = new HashSet<Product>();
+            ProductCategories = new HashSet<Product>();
+            ProductSubCategories = new HashSet<Product>();
         }
 
         public int CategoryId { get; set; }
@@ -25,6 +26,7 @@ namespace ZStore_BLL.Models
 
         public virtual Category? ParentCategory { get; set; }
         public virtual ICollection<Category> InverseParentCategory { get; set; }
-        public virtual ICollection<Product> Products { get; set; }
+        public virtual ICollection<Product> ProductCategories { get; set; }
+        public virtual ICollection<Product> ProductSubCategories { get; set; }
     }
 }

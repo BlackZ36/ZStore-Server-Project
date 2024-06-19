@@ -3,24 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ZStore_BLL.DTO;
 using ZStore_BLL.Models;
 
 namespace ZStore_DAL.Interface
 {
     public interface IProductRepository
-    {   
+    {
+        //User
+        Task<IEnumerable<ProductDTO>> UserGetProductsAsync();
+        Task<ProductDTO> UserGetProductByIdAsync(int productId);
 
-
-        //lấy ra toàn bộ danh sách sản phẩm
+        //Admin
         Task<IEnumerable<Product>> GetProductsAsync();
-
-        //lấy ra 1 sản phẩm theo id
-        Task<Product> GetProductByIdAsync(int ID);
-
-        //lấy ra một sản phẩm theo category id
-
-        Task<bool> AddProductAsync(Product product);
-        Task<bool> UpdateProductAsync(Product product);
-        Task<bool> DeleteProductAsycn(int ID);
+        Task<Product> GetProductByIdAsync(int productId);
+        Task<int> AddProductAsync(ProductDTO product);
+        Task UpdateProductAsync(ProductDTO product);
+        Task DeleteProductAsync(int productId);
     }
 }

@@ -5,9 +5,13 @@ C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\ZStore 
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\ZStore API.runtimeconfig.json
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\ZStore API.dll
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\ZStore API.pdb
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\Humanizer.dll
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\MessagePack.dll
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\MessagePack.Annotations.dll
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\Microsoft.Build.dll
@@ -32,7 +36,6 @@ C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\Microso
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
@@ -53,6 +56,7 @@ C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\Microso
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\NuGet.Common.dll
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\NuGet.Configuration.dll
 C:\Users\duchi\Desktop\ZStore Server Project\ZStore API\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll

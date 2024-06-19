@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "tA97BP+j3Xpgk5hpWvj1XUAT6x18Un3ZMHNK4tUGc9+9NbCoXIpSN448QzG2aGzU0LNakDfd9pcPIHNf0v5AOg==",
+  "dgSpecHash": "z8qlaFQLgvZWXq07rZcETXCnnOtGrfprdQ06V0LAe6t/8Z2/bKjoiEgQo0SWzq6WNNBctg3t/Gp40JDNHCTc/w==",
   "success": true,
   "projectFilePath": "C:\\Users\\duchi\\Desktop\\ZStore Server Project\\ZStore BLL\\ZStore BLL.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\duchi\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\duchi\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\duchi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\duchi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\duchi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\duchi\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",
     "C:\\Users\\duchi\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\duchi\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.31\\microsoft.entityframeworkcore.6.0.31.nupkg.sha512",

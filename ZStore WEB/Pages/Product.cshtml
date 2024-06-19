@@ -1,0 +1,62 @@
+﻿@page
+@model ProductModel
+@using ZStore_BLL.DTO
+@{
+    ViewData["Title"] = "Display Product List";
+}
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Category ID</th>
+            <th>Sub Category ID</th>
+            <th>Type ID</th>
+            <th>Vendor ID</th>
+            <th>Collection ID</th>
+            <th>Title</th>
+            <th>Meta Title</th>
+            <th>Content</th>
+            <th>SLUG</th>
+            <th>SKU</th>
+            <th>View</th>
+            <th>SKU</th>
+            <th>Created</th>
+            <th>Updated</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if(Model.Products != null)
+        {
+            var i = 1;
+            @foreach (var product in Model.Products)
+            {
+                <tr>
+                    <td>@i</td>
+                    <td>@product.ProductId</td>
+                    <td>@product.CategoryId</td>
+                    <td>@product.SubCategoryId</td>
+                    <td>@product.TypeId</td>
+                    <td>@product.VendorId</td>
+                    <td>@product.CollectionId</td>
+                    <td>@product.Title</td>
+                    <td>@product.MetaTitle</td>
+                    <td>@product.Content</td>
+                    <td>@product.Slug</td>
+                    <td>@product.Sku</td>
+                    <td>@product.ViewTime</td>
+                    <td>@product.CreatedAt</td>
+                    <td>@product.UpdatedAt</td>
+                    @if(@product.Status == 1){
+                        <td>Actived</td>
+                    }else{
+                        <td>Deactived</td>
+                    }
+                </tr>
+                i++;
+            }
+        }
+    </tbody>
+</table>
