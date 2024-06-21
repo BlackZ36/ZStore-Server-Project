@@ -26,7 +26,7 @@ namespace ZStore_DAL.Repository
             return _mapper.Map<ProductDTO>(product);
         }
 
-        public async Task<IEnumerable<Product>> GetProductsAsync() => await ProductDAO.Instance.GetProductsAsync();
+        public async Task<IEnumerable<ProductDTO>> GetProductsAsync() => await ProductDAO.Instance.GetProductsAsync();
 
         public async Task<Product> GetProductByIdAsync(int productId) => await ProductDAO.Instance.GetProductByIdAsync(productId);
 

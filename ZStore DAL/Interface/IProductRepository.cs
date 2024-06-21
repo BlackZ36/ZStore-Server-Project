@@ -10,7 +10,7 @@ namespace ZStore_DAL.Interface
         Task<ProductDTO> UserGetProductByIdAsync(int productId);
 
         //Admin
-        Task<IEnumerable<Product>> GetProductsAsync();
+        Task<IEnumerable<ProductDTO>> GetProductsAsync();
         Task<Product> GetProductByIdAsync(int productId);
         Task<int> AddProductAsync(ProductDTO product);
         Task UpdateProductAsync(ProductDTO product);

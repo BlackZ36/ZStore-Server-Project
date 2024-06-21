@@ -19,5 +19,13 @@
         public int? Status { get; set; }
         public DateTime? CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
+
+        //Include Model
+        public CategoryDTO? Category { get; set; }
+        public CollectionDTO? Collection { get; set; }
+        public CategoryDTO? SubCategory { get; set; }
+        public TypeDTO? Type { get; set; }
+        public VendorDTO? Vendor { get; set; }
+
     }
 }

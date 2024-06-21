@@ -1,0 +1,31 @@
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\bin\Debug\net6.0\appsettings.json
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\bin\Debug\net6.0\ZStore WEB.staticwebassets.runtime.json
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\bin\Debug\net6.0\ZStore WEB.exe
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\bin\Debug\net6.0\ZStore WEB.deps.json
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\bin\Debug\net6.0\ZStore WEB.runtimeconfig.json
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\bin\Debug\net6.0\ZStore WEB.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\bin\Debug\net6.0\ZStore WEB.pdb
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\ZStore WEB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\ZStore WEB.AssemblyInfoInputs.cache
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\ZStore WEB.AssemblyInfo.cs
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\ZStore WEB.csproj.CoreCompileInputs.cache
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\ZStore WEB.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\ZStore WEB.RazorAssemblyInfo.cache
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\ZStore WEB.RazorAssemblyInfo.cs
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\ZStore WEB.sourcelink.json
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\staticwebassets\msbuild.ZStore WEB.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\staticwebassets\msbuild.build.ZStore WEB.props
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ZStore WEB.props
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ZStore WEB.props
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\scopedcss\bundle\ZStore WEB.styles.css
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\scopedcss\projectbundle\ZStore WEB.bundle.scp.css
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\ZStore WEB.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\refint\ZStore WEB.dll
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\ZStore WEB.pdb
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\ZStore WEB.genruntimeconfig.cache
+C:\Users\a\Desktop\ZStore-Server-Project\ZStore WEB\obj\Debug\net6.0\ref\ZStore WEB.dll

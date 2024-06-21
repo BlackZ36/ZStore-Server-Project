@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ZStore_BLL.DTO;
 using ZStore_BLL.Models;
+using Type = ZStore_BLL.Models.Type;
 
 namespace ZStore_DAL.DAO
 {
@@ -26,12 +28,70 @@ namespace ZStore_DAL.DAO
 
 
         //----------------------------------------- Method ----------------------------------------- 
-        public async Task<IEnumerable<Product>> GetProductsAsync()
+        public async Task<IEnumerable<ProductDTO>> GetProductsAsync()
         {
             try
             {
                 using var context = new ZStore_SampleContext();
-                var productList = await context.Products.ToListAsync();
+                var productList = await context.Products
+                                        .Include(p => p.Category)
+                                        .Include(p => p.Collection)
+                                        .Include(p => p.SubCategoryId)
+                                        .Include(p => p.Type)
+                                        .Include(p => p.Vendor)
+                                        .Select(p => new ProductDTO
+                                        {   
+                                            ProductId = p.ProductId,
+                                            CategoryId = p.CategoryId,
+                                            CollectionId = p.CollectionId,
+                                            SubCategoryId = p.SubCategoryId,
+                                            TypeId = p.TypeId,
+                                            VendorId = p.VendorId,
+                                            Title = p.Title,
+                                            MetaTitle = p.MetaTitle,
+                                            Content = p.Content,
+                                            Image = p.Image,
+                                            Images = p.Images,
+                                            Slug = p.Slug,
+                                            Sku = p.Sku,
+                                            ViewTime = p.ViewTime,
+                                            Status = p.Status,
+                                            CreatedAt = p.CreatedAt,
+                                            UpdatedAt = p.UpdatedAt,
+
+
+                                            Category = new CategoryDTO
+                                            {
+                                                CategoryId = p.Category.CategoryId,
+                                                ParentCategoryId = p.Category.ParentCategoryId,
+                                                Title = p.Category.Title,
+                                                Slug = p.Category.Slug,
+                                                Sku = p.Category.Sku,
+                                            },
+
+                                            Collection = new CollectionDTO
+                                            {
+                                                CollectionId = p.Collection.CollectionId
+                                            },
+
+                                            SubCategory = new CategoryDTO
+                                            {
+                                                CategoryId = p.SubCategory.CategoryId
+                                            },
+
+                                            Type = new TypeDTO
+                                            {
+                                                TypeId = p.Type.TypeId
+                                            },
+
+                                            Vendor = new VendorDTO
+                                            {
+                                                VendorId = p.Vendor.VendorId,
+                                                Title = p.Vendor.Title,
+                                            }
+
+                                        })
+                                        .ToListAsync();
                 return productList;
             }
             catch (Exception ex)
