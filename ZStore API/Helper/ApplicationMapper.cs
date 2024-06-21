@@ -6,7 +6,7 @@ namespace ZStore_API.Helper
 {
     public class ApplicationMapper : Profile
     {
-        public ApplicationMapper() 
+        public ApplicationMapper()
         {
             CreateMap<ProductDTO, Product>().ReverseMap();
         }

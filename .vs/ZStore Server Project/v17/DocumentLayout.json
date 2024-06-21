@@ -1,105 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{E1257D3D-CCDA-48D0-AF36-E8FC8BADD605}|ZStore Console\\ZStore Console.csproj|c:\\users\\a\\desktop\\zstore-server-project\\zstore console\\testdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1257D3D-CCDA-48D0-AF36-E8FC8BADD605}|ZStore Console\\ZStore Console.csproj|solutionrelative:zstore console\\testdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D28FE18-62B9-49B8-8D48-114CCF5AF36E}|ZStore BLL\\ZStore BLL.csproj|c:\\users\\a\\desktop\\zstore-server-project\\zstore bll\\models\\itemvariant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D28FE18-62B9-49B8-8D48-114CCF5AF36E}|ZStore BLL\\ZStore BLL.csproj|solutionrelative:zstore bll\\models\\itemvariant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D28FE18-62B9-49B8-8D48-114CCF5AF36E}|ZStore BLL\\ZStore BLL.csproj|c:\\users\\a\\desktop\\zstore-server-project\\zstore bll\\models\\variant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D28FE18-62B9-49B8-8D48-114CCF5AF36E}|ZStore BLL\\ZStore BLL.csproj|solutionrelative:zstore bll\\models\\variant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D28FE18-62B9-49B8-8D48-114CCF5AF36E}|ZStore BLL\\ZStore BLL.csproj|c:\\users\\a\\desktop\\zstore-server-project\\zstore bll\\models\\variantvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D28FE18-62B9-49B8-8D48-114CCF5AF36E}|ZStore BLL\\ZStore BLL.csproj|solutionrelative:zstore bll\\models\\variantvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D28FE18-62B9-49B8-8D48-114CCF5AF36E}|ZStore BLL\\ZStore BLL.csproj|c:\\users\\a\\desktop\\zstore-server-project\\zstore bll\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D28FE18-62B9-49B8-8D48-114CCF5AF36E}|ZStore BLL\\ZStore BLL.csproj|solutionrelative:zstore bll\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 4,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ItemVariant.cs",
-              "DocumentMoniker": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\Models\\ItemVariant.cs",
-              "RelativeDocumentMoniker": "ZStore BLL\\Models\\ItemVariant.cs",
-              "ToolTip": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\Models\\ItemVariant.cs",
-              "RelativeToolTip": "ZStore BLL\\Models\\ItemVariant.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T09:28:28.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Variant.cs",
-              "DocumentMoniker": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\Models\\Variant.cs",
-              "RelativeDocumentMoniker": "ZStore BLL\\Models\\Variant.cs",
-              "ToolTip": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\Models\\Variant.cs",
-              "RelativeToolTip": "ZStore BLL\\Models\\Variant.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T09:22:36.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VariantValue.cs",
-              "DocumentMoniker": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\Models\\VariantValue.cs",
-              "RelativeDocumentMoniker": "ZStore BLL\\Models\\VariantValue.cs",
-              "ToolTip": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\Models\\VariantValue.cs",
-              "RelativeToolTip": "ZStore BLL\\Models\\VariantValue.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T09:22:17.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\Models\\Item.cs",
-              "RelativeDocumentMoniker": "ZStore BLL\\Models\\Item.cs",
-              "ToolTip": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore BLL\\Models\\Item.cs",
-              "RelativeToolTip": "ZStore BLL\\Models\\Item.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAA9wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T05:11:27.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TestDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore Console\\TestDBContext.cs",
-              "RelativeDocumentMoniker": "ZStore Console\\TestDBContext.cs",
-              "ToolTip": "C:\\Users\\a\\Desktop\\ZStore-Server-Project\\ZStore Console\\TestDBContext.cs",
-              "RelativeToolTip": "ZStore Console\\TestDBContext.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAIwCUAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T06:37:34.827Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

@@ -1,16 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ZStore_BLL.DTO;
 using ZStore_BLL.Models;
 
 namespace ZStore_DAL.DAO
 {
     internal class ProductDAO
-    {   
+    {
         //Singleton
         private static ProductDAO instance = null;
         public static readonly object instanceLock = new object();
@@ -51,8 +45,10 @@ namespace ZStore_DAL.DAO
             {
                 using var context = new ZStore_SampleContext();
                 var product = await context.Products.FindAsync(id);
+                if (product == null) throw new Exception();
                 return product;
-            }catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 throw new Exception("Error get product by id.", ex);
             }
@@ -105,7 +101,7 @@ namespace ZStore_DAL.DAO
 
                 if (product != null)
                 {
-                    context.Products.Remove(product); 
+                    context.Products.Remove(product);
                     await context.SaveChangesAsync();
                 }
             }

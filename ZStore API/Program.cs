@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.Extensions.Configuration;
-using Newtonsoft.Json;
+﻿using Microsoft.EntityFrameworkCore;
 using ZStore_BLL.Models;
-using ZStore_DAL.Repository;
 using ZStore_DAL.Interface;
+using ZStore_DAL.Repository;
 
 namespace ZStore_API
 {

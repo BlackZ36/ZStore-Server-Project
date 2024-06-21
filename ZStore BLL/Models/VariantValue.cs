@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace ZStore_BLL.Models
+﻿namespace ZStore_BLL.Models
 {
     public partial class VariantValue
     {

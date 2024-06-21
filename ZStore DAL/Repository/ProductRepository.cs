@@ -1,9 +1,4 @@
 ﻿using AutoMapper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ZStore_BLL.DTO;
 using ZStore_BLL.Models;
 using ZStore_DAL.DAO;
@@ -36,7 +31,7 @@ namespace ZStore_DAL.Repository
         public async Task<Product> GetProductByIdAsync(int productId) => await ProductDAO.Instance.GetProductByIdAsync(productId);
 
         public async Task<int> AddProductAsync(ProductDTO product)
-        {   
+        {
             var newProduct = _mapper.Map<Product>(product);
             return await ProductDAO.Instance.AddProductAsync(newProduct);
         }

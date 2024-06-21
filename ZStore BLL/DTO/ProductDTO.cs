@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace ZStore_BLL.DTO
+﻿namespace ZStore_BLL.DTO
 {
     public partial class ProductDTO
     {
